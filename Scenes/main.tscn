@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://n6ma78pts1n0"]
+
+[ext_resource type="PackedScene" uid="uid://7u5plkeicq4f" path="res://Characters/Player/player.tscn" id="2_opson"]
+[ext_resource type="PackedScene" uid="uid://cvvgdqyqdkua5" path="res://Scenes/WorldScenes/level_one.tscn" id="2_sosy1"]
+
+[node name="Main" type="Node"]
+
+[node name="LevelOne" parent="." instance=ExtResource("2_sosy1")]
+
+[node name="Player" parent="." instance=ExtResource("2_opson")]
+position = Vector2(248, 640)
